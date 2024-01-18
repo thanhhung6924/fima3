@@ -436,3 +436,68 @@ a {
 .team-control__next {
   rotate: 180deg;
 }
+.mobile__body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 265px;
+  width: 1170px;
+  height: 427px;
+  border-radius: 4px;
+  background: #2e80ce;
+  position: relative;
+}
+.mobile__body-img {
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+}
+.heading__mobile {
+  margin-top: 76px;
+  color: #fff;
+  width: 489px;
+}
+.desc__mobie {
+  width: 586px;
+  color: #fff;
+}
+.content__mobile {
+  margin-right: 70px;
+}
+.install__mobile-adroi,
+.install__mobile-ios {
+  display: flex;
+  padding: 5px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+
+  flex-shrink: 0;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.install__mobile-adroi:hover {
+  opacity: 0.8;
+}
+.install__mobile-ios:hover {
+  opacity: 0.8;
+}
+.getiton__mobile-title,
+.dowloadonthe {
+  font-size: 12px;
+  color: #fff;
+  padding-top: 3px;
+}
+.Appstore,
+.google__mobile-play {
+  font-size: 16px;
+  color: #fff;
+  line-height: 18px;
+}
+.mobile__download-title {
+  margin-left: 10px;
+}
+.install__mobile {
+  display: flex;
+  gap: 28px;
+  margin-top: 38px;
+}
